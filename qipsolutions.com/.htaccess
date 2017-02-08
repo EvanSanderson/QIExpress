@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^qipsolutions\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.qipsolutions\.com$
+RewriteRule ^/?$ "http\:\/\/qiexpress\.com\/" [R=301,L]
+
